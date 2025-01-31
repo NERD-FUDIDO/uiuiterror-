@@ -4,28 +4,66 @@
     <tittle>Pizzara do fredão</tittle>
 </head>
 <style>
-    *{
+    * {
         margin: 0;
         box-sizing: border-box;
     }
-    header{
+
+    header {
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+        background-color: rgba(0, 0, 0, 10);
+        /* border-radius: 87px; */
+        padding: 5px;
+    }
+
+    footer {
         background-color: rgba(0, 0, 0, 10);
         border-radius: 87px;
         padding: 5px;
     }
-    footer{
-        background-color: rgba(0, 0, 0, 10);
-        border-radius: 87px;
-        padding: 5px;
+
+    ul,
+    li {
+        display: inline;
+        list-style: none;
+
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #f1 {
+        float: left;
+        display: inline;
+    }
+
+    #f2{
+        float: right;
+        display: inline;
     }
 </style>
 
 <body style="background-color: goldenrod; color: red;">
     <header>
-        <h1>Pizzaria freddy's</h1>
+        <div id="div1">
+            <img src="fredick.gif" height="10%" width="10%">
+                <h1>Pizzaria freddy's</h1>
+            <img id="f1" src="fredick.gif" height="10%" width="10%">
+        </div>
+        <div id="div2">
+            <ul>
+                <li>Promoções</li>
+                <li>montar pizzas</li>
+                <li>cardápio</li>
+                <li>Sobre</li>
+            </ul>
+        </div>    
     </header>
     <main>
-        <img src="fredy.png" height="70%" width="100%">
+        <img id="f2" src="fredy.png" height="70%" width="100%">
     </main>
     <footer>
         <h3>Best pizzaria for the kids</h3><br>
