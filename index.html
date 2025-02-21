@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="pt-br-BR">
 
 <head>
@@ -8,17 +8,19 @@
         margin: 0%;
         padding: 0%;
         border: 0%;
+        border: solid black;
     }
 
     body {
         background-color: rgb(255, 255, 255);
-        background-size: 1280px 640px;
+        background-size:cover;
         background-repeat: no-repeat;
     }
 
     header {
         background-color: rgb(255, 255, 150, 0.8);
-        
+        display:flex;
+
     }
 
     main {
@@ -32,41 +34,25 @@
 
     a{
         text-decoration: none;
-        
-    }
-
-    /* a:hover{
-        background-color: rgb(130, 130, 255);
-        transition: 1s;
-    } */
-
-    a:active{
         color: white;
-    }
-
-    a:visited{
-        color: white;
-    }
-
-    a:link{
-        color: white;
+        display: block;
     }
 
     #div1 {
-        
+        background-color: blue;
     }
 
     #div2 {
         text-align: center;
-
         font-size: 50px;        
+        background-color: red;
     }
 
     #div3{
         text-align: center;
         padding: 1%;
-        /* background-color: rgb(255, 255, 150, 0.8);     */
         font-size: larger;
+        background-color: green;
     }
 
     #div3 a:hover{
@@ -77,13 +63,17 @@
     }
 
     #div4 {
-        position: ;
+        background-color: purple;
     }
     
     #div4, #div1{
-        border-radius: 50px;
+        margin-right: 50%;
     }
 
+    #div5{
+        left: 0%;
+        display: inline-block;
+    }
     .divA{
         display: inline-block;
         padding-left: 20px;
@@ -99,7 +89,7 @@
         <div id="div1">
             <a href=".html"><img src="logofofo.jpeg" width="70px" height="70px" alt="logo fofa"></a>
         </div>
-        <div>
+        <div id="div5">
             <div id="div2">
                 <h1 style="font-size:60px; color: rgb(255, 255, 255); ">Pizza Time</h1>
             </div>
@@ -137,7 +127,7 @@
 </body>
 
 </html>
-<!-- <p>algo no meio</p> pular-->
+<p>algo no meio</p> pular-->
  <!-- <a></a> link <a href="algum link"></a> destino -->
 <!-- <img src="arquivo p imagem" alt="descrição caso a imagemn vá" width="largura" height="altura"> -->
  <!-- <p style=""></p> atributo style -->
@@ -150,4 +140,58 @@
 <!-- <a href="www.algumsite.com"> p visitar algum site</a> -->
 <!-- <a></a> = link -->
 <!-- Use the <img> element (inside <a>) to use an image as a link -->
-<!-- HTML Links -->
+
+<!DOCTYPE html>
+<html lang="pt-br-BR">
+<html>
+    <head>
+        <title>Pizza Time</title>
+        <style>
+            *{
+                margin: 0%;
+            }
+            body{
+                background-image: url(planodefundo.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            ul{
+                list-style-type: none;
+            }
+            #div1{
+                background-color: rgb(255, 255, 130, 0.8);
+            }
+            #div2{
+                
+            }
+            #div1, #div2{
+                margin: auto;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body title="Pizza Time, the best pizzaria for the kids!">
+        <header>
+            <div id="div1">
+                <div id="div2">
+                    <h1>Pizza Time</h1>
+                </div>
+                    <ul>
+                        <li>Cardápio</li>
+                        <li>Promoções</li>
+                        <li>Montar Pizza</li>
+                        <li>Sobre</li>
+                    </ul>
+            </div>
+        </header>
+        <main>
+            Ofertas de pizza
+        </main>
+        <footer>
+            Área de Entrega
+            Atendimento
+            Contato
+        </footer>
+    </body>
+
+</html>
