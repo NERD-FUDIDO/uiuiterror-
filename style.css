@@ -12,7 +12,7 @@ body {
 
 /* Header */
 header {
-    background-color: #8B0000; /* Vermelho escuro */
+    background-color: #411b1c; /* Vermelho escuro */
     padding: 10px;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -26,7 +26,7 @@ header .logo img {
 header h1 {
     font-size: 2.5rem;
     margin: 10px 0;
-    color: #ffcc00; /* Amarelo */
+    color: #f9e614; /* Amarelo */
 }
 
 nav {
@@ -47,8 +47,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    color: #ffcc00;
+    background-color: rgba(241, 7, 7, 0.434);
+    color: #f9e614;
 }
 
 /* Conteúdo principal */
@@ -62,7 +62,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: #8B0000; /* Vermelho escuro */
+    background-color: #411b1c; /* Vermelho escuro */
     padding: 10px;
     text-align: center;
     position: fixed;
@@ -73,7 +73,7 @@ footer {
 
 footer address {
     margin: 5px 0;
-    color: #ffcc00; /* Amarelo */
+    color: #f9e614; /* Amarelo */
 }
 
 /* Cardápio */
@@ -107,12 +107,12 @@ footer address {
 .pizza-item h3 {
     font-size: 1.5rem;
     margin: 10px 0;
-    color: #ffcc00;
+    color: #f9e614;
 }
 
 .pizza-item p {
     font-size: 1.2rem;
-    color: #ffcc00;
+    color: #f9e614;
 }
 
 /* Promoções */
@@ -132,7 +132,7 @@ footer address {
 
 .promo-item p {
     margin: 5px 0;
-    color: #ffcc00;
+    color: #f9e614;
 }
 
 /* Sobre */
@@ -143,5 +143,5 @@ footer address {
 
 .sobre p {
     font-size: 1.2rem;
-    color: #ffcc00;
+    color: #f9e614;
 }
